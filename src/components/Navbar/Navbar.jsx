@@ -33,7 +33,7 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       <Link to={'/'}>
-        <img src={logo} className='logo' alt="" />
+        <h1>Crypto Fi</h1>
       </Link>
       <ul>
         <Link to={"/"}><li>Home</li></Link>
