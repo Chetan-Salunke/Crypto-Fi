@@ -31,7 +31,7 @@ const Home = () => {
   return (
     <div className="home">
       <div className="hero">
-        <h1>Largest <br/> Crypto Marketplace</h1>
+        <h1>Trade Smart<br/>Trade Cryptocurrency</h1>
         <p> This page displays the latest prices, 24-hour trading volume, price changes, and market capitalizations for all cryptocurrencies</p>
         <form onSubmit={searchHandler}>
           <input onChange={inputHandler} list='coinlist' type="text" value={input} placeholder='Search Crypto' required/>
